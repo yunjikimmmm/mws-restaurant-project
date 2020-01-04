@@ -1,0 +1,21 @@
+/* ====================== Responsive Design Details ====================== */
+/* BREAKPOINT 1: Devices with a viewport less than 450px */
+
+@media screen and (max-width: 450px) {
+	.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+		margin-top: 10px;
+		padding-top: 10px;
+	  height: 150px;
+		width: 100%;
+	}
+
+  #restaurants-list li {
+    width: inherit;
+    padding: inherit;
+  }
+
+}
