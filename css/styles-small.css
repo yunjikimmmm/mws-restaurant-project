@@ -13,6 +13,10 @@
 		width: 100%;
 	}
 
+  #restaurant-container, #reviews-container {
+    /* padding-left: 0px; */
+  }
+
   #restaurants-list li {
     width: inherit;
     padding: inherit;

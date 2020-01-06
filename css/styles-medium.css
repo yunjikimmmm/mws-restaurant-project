@@ -3,7 +3,6 @@
 
 @media screen and (max-width: 767px) {
 	#map, #map-container {
-		/* transform: translateY(50px); */
 		height: 350px;
 	}
   .filter-options h2 {
@@ -29,7 +28,7 @@
 	}
 
 	#restaurant-container, #reviews-container {
-		width: 86%;
+		width: 100%;
 	}
 
 	.inside #footer {
